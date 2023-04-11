@@ -1,0 +1,1 @@
+# basit-algoritma-rnekleri
