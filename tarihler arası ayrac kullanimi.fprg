@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-01 12:20:19 &#214;&#214;"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMDE7MTI6MDA6NDUgw5bDljszMTU0"/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMDE7MTI6MjA6MTkgw5bDljsxOzMyNjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gun, ay, yil" type="Integer" array="False" size=""/>
+            <declare name="ayrac" type="String" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen do&#287;um tarihinizi g&#252;n ay yil &#351;eklinde giriniz:&quot;" newline="True"/>
+            <input variable="gun"/>
+            <input variable="ay"/>
+            <input variable="yil"/>
+            <output expression="&quot;l&#252;tfen dogum tarihiniz i&#231;in ayra&#231; giriniz:&quot;" newline="True"/>
+            <input variable="ayrac"/>
+            <output expression="&quot;Dtarihi:&quot; &amp; gun &amp; ayrac &amp; ay &amp; ayrac &amp; yil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

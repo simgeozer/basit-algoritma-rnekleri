@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-28 02:32:00 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6NDU6NTQgw5ZTOzMwMzk="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDI6MzI6MDAgw5ZTOzE1OzMxODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y&#305;l" type="Integer" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen y&#305;l girin:&quot;" newline="True"/>
+            <input variable="y&#305;l"/>
+            <if expression="y&#305;l%4==0 &amp;&amp; y&#305;l%100!=0">
+                <then>
+                    <output expression="&quot;normal y&#305;l&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;art&#305;k y&#305;l&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

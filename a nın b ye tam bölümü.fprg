@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-28 02:48:13 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDI6MDU6MTggw5ZTOzMwMzY="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDI6MzU6MzEgw5ZTOzI7c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6MTc6MzUgw5ZTO2LDtmzDvG00IMO2ZGV2NC5mcHJnOzgyODk="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDI6NDg6MTMgw5ZTOzE7MzE0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen ilk sayiyi girin:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;l&#252;tfen ikinci sayiyi girin:&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="(a%n)==0">
+                <then>
+                    <output expression="a&amp;&quot;say&#305;s&#305;&quot; &amp;n&amp; &quot;say&#305;s&#305;na tam b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a&amp;&quot;say&#305;s&#305;&quot; &amp;n&amp; &quot;say&#305;s&#305;na tam b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-31 11:33:50 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDctMzE7MTE6MDM6NTIgw5ZTOzMwMjU="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDctMzE7MTE6MzM6NTAgw5ZTOzE7MzEzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <assign variable="name" expression="&quot;simge&quot;"/>
+            <output expression="name" newline="True"/>
+            <declare name="meslek" type="String" array="False" size=""/>
+            <assign variable="meslek" expression="&quot;&#246;&#287;retmen&quot;"/>
+            <output expression="meslek" newline="True"/>
+            <declare name="cal&#305;st&#305;g&#305;kurum" type="String" array="False" size=""/>
+            <assign variable="cal&#305;st&#305;g&#305;kurum" expression="&quot;un&#305;vers&#305;te&quot;"/>
+            <output expression="cal&#305;st&#305;g&#305;kurum" newline="True"/>
+            <output expression="&quot;lutfen ad&#305;n&#305;z&#305; soyad&#305;n&#305;z&#305; g&#305;r&#305;n&quot;" newline="True"/>
+            <declare name="adsoyad" type="String" array="False" size=""/>
+            <input variable="adsoyad"/>
+            <output expression="adsoyad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-02 01:31:15 &#214;&#214;"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDktMDI7MTI6MTc6NDMgw5bDljszMTYy"/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDktMDI7MDE6MzE6MTUgw5bDljsxOzMyNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="vki(54,1.64)"/>
+        </body>
+    </function>
+    <function name="vki" type="Real" variable="a">
+        <parameters>
+            <parameter name="kg" type="Real" array="False"/>
+            <parameter name="m" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <assign variable="a" expression="kg/m^2"/>
+            <if expression="a&gt;18.50">
+                <then>
+                    <if expression="a&gt;=24.99">
+                        <then>
+                            <if expression="a&gt;=29.99">
+                                <then>
+                                    <if expression="a&gt;30">
+                                        <then>
+                                            <output expression="&quot;ideal kilonun &#252;zerindesiniz&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </then>
+                                <else>
+                                    <output expression="&quot;ideal kilonun &#252;stt&#252;ndesiniz&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;ideal kilodasiniz&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;ideal k&#305;lonun alt&#305;ndas&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

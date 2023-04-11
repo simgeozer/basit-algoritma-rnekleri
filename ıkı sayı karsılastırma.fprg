@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-24 01:00:18 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjQ7MTI6MDE6MDYgw5ZTOzMwMjY="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjQ7MDE6MDA6MTggw5ZTOzE7MzEzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen 1&#305;nc&#305; say&#305;y&#305; g&#305;r&#305;n&#305;z : &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;l&#252;tfen 2&#305;nc&#305; say&#305;y&#305; giriniz:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="a &amp; &quot;say&#305;s&#305; b&#252;y&#252;kt&#252;r &quot;&amp; b&amp;&quot;say&#305;s&#305;ndan&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a&amp; &quot; say&#305;s&#305; k&#252;&#231;&#252;kt&#252;r&quot;&amp; b&amp; &quot;say&#305;s&#305;ndan&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

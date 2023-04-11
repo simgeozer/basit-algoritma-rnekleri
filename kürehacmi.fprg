@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-04 06:39:15 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMDQ7MDY6MjQ6MTQgw5ZTOzMwMzE="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMDQ7MDY6Mzk6MTUgw5ZTOzE7MzE0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pide&#287;eri, alan, yar&#305;cap, hacim" type="Real" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen k&#252;renin  yar&#305;cap giriniz:&quot;" newline="True"/>
+            <input variable="yar&#305;cap"/>
+            <assign variable="pide&#287;eri" expression="3.14"/>
+            <assign variable="alan" expression="4* pide&#287;eri * yar&#305;cap *yar&#305;cap"/>
+            <output expression="alan" newline="True"/>
+            <assign variable="hacim" expression="(4*pide&#287;eri*yar&#305;cap*yar&#305;cap*yar&#305;cap)/3"/>
+            <output expression="hacim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

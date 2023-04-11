@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-28 01:33:54 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6MTc6MzUgw5ZTOzMwMzc="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6MzM6NTQgw5ZTOzY7MzE0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="6"/>
+            <output expression="&quot;say&#305; 2yi girin:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="(b%a)==0">
+                <then>
+                    <output expression="b&amp;&quot;say&#305;s&#305;&quot; &amp;a&amp; &quot;say&#305;s&#305;na tam b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="b&amp;&quot;say&#305;s&#305;&quot; &amp;a&amp; &quot;say&#305;s&#305;na tam b&#246;l&#252;nmez&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

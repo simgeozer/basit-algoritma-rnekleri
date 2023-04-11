@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-03 10:46:55 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDktMDM7MTA6MDg6MzYgw5ZTOzMwMzI="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDktMDM7MTA6NDY6NTUgw5ZTOzE7MzE0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;A kenari i&#231;in de&#287;er girin:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B kenari i&#231;in de&#287;er girin:&quot;" newline="True"/>
+            <input variable="b"/>
+            <call expression="kareMi(a,b)"/>
+        </body>
+    </function>
+    <function name="kareMi" type="None" variable="bu d&#246;rtgen karedir">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;bu bir karedir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a!=b">
+                        <then>
+                            <output expression="&quot;bu bir dikd&#246;rtgendir&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

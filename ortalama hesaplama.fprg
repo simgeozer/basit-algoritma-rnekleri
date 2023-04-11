@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-24 01:16:48 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjQ7MDE6MDA6NTIgw5ZTOzMwMjQ="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjQ7MDE6MTY6NDggw5ZTOzE7MzE0NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y1, y2, y3" type="Integer" array="False" size=""/>
+            <declare name="ort" type="Real" array="False" size=""/>
+            <output expression="&quot;1&#305;nc&#305; yaz&#305;l&#305; notu&quot;" newline="True"/>
+            <input variable="y1"/>
+            <output expression="&quot;2&#305;nc&#305; yaz&#305;l&#305; notu&quot;" newline="True"/>
+            <input variable="y2"/>
+            <output expression="&quot;3uncu yaz&#305;l&#305; notu&quot;" newline="True"/>
+            <input variable="y3"/>
+            <assign variable="ort" expression="(y1+y2+y3)/3"/>
+            <if expression="ort&gt;= 50">
+                <then>
+                    <output expression="&quot;ge&#231;t&#305;n&#305;z:&quot; &amp; tofixed(ort,2)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;n&#305;z ,ortalaman&#305;z :&quot; &amp; tofixed(ort,2)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

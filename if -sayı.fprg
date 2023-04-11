@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-28 01:17:29 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6MDY6NTUgw5ZTOzMwMzc="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDgtMjg7MDE6MTc6Mjkgw5ZTOzE7MzE0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen bir say&#305; girin:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;l&#252;tfen bir say&#305; girin:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;do&#287;ru&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;hatal&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simge"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-31 11:57:08 &#214;S"/>
+        <attribute name="created" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDctMzE7MTE6NDQ6MjMgw5ZTOzMwMjg="/>
+        <attribute name="edited" value="c2ltZ2U7TEFQVE9QLU9SREQ5MVVSOzIwMjItMDctMzE7MTE6NTc6MDggw5ZTOzE7MzE0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="adsoyad, kAdi" type="String" array="False" size=""/>
+            <output expression="&quot;please enter name:&quot;" newline="True"/>
+            <input variable="kAdi"/>
+            <assign variable="adsoyad" expression="&quot;simge ozer&quot;"/>
+            <output expression="&quot;hello &quot;&amp; kAdi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
