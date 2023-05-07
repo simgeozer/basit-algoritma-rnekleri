@@ -1,1 +1,1 @@
-# basit-algoritma-rnekleri
+# basit-algoritma-ornekleri
